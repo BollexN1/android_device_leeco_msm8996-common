@@ -320,6 +320,9 @@
         <item>"/system/framework/boot-core-libart.vdex"</item>
     </string-array>
 
+    <!-- Whether to show VoLTE icon in the status bar -->
+    <bool name="config_display_volte">true</bool>
+
     <!-- Enable blur support -->
     <!-- bool name="config_ui_blur_enabled">true</bool -->
 
