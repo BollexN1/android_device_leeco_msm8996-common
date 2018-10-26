@@ -960,6 +960,12 @@ service hvdcp_opti /vendor/bin/hvdcp_opti
     user root
     group root
 
+
+service uei-sh /vendor/bin/init.uei.sh
+    class main
+    user root
+    group root
+
 service charger /vendor/bin/charger
     class charger
     group system graphics log

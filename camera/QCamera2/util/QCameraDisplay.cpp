@@ -141,7 +141,7 @@ QCameraDisplay::QCameraDisplay()
       mNum_vsync_from_vfe_isr_to_presentation_timestamp(0),
       mSet_timestamp_num_ms_prior_to_vsync(0),
       mVfe_and_mdp_freq_wiggle_filter_max_ms(0),
-      mVfe_and_mdp_freq_wiggle_filter_min_ms(0)
+      mVfe_and_mdp_freq_wiggle_filter_min_ms(0),
 #ifndef USE_DISPLAY_SERVICE
       mThreadExit(0)
 #else //USE_DISPLAY_SERVICE
